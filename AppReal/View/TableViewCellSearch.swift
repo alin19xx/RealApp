@@ -16,6 +16,10 @@ class TableViewCellSearch: UITableViewCell {
     @IBOutlet weak var imgBrandSearch: UIImageView!
     @IBOutlet weak var brandSearch: UILabel!
     
+    @IBOutlet weak var isLiked: UIImageView!
+   
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

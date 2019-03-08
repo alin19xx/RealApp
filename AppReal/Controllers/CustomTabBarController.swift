@@ -33,17 +33,16 @@ class CustomTabBarController: UITabBarController {
     tabBarItem = self.tabBar.items![2]
     tabBarItem.image = UIImage(named: "UnselectedMenu")?.withRenderingMode(.alwaysOriginal)
     tabBarItem.selectedImage = UIImage(named: "SelectedMenu")?.withRenderingMode(.alwaysOriginal)
-        
+ 
         /*TabBar item 4*/
     tabBarItem = self.tabBar.items![3]
-    tabBarItem.image = UIImage(named: "UnselectedCarrito")?.withRenderingMode(.alwaysOriginal)
-    tabBarItem.selectedImage = UIImage(named: "SelectedCarrito")?.withRenderingMode(.alwaysOriginal)
-        
-        /*TabBar item 5*/
-    tabBarItem = self.tabBar.items![4]
     tabBarItem.image = UIImage(named: "UnselectedProfile")?.withRenderingMode(.alwaysOriginal)
     tabBarItem.selectedImage = UIImage(named: "SelectedProfile")?.withRenderingMode(.alwaysOriginal)
-    }
     
-
+    
+        /*TabBar item 5*/
+    tabBarItem = self.tabBar.items![4]
+    tabBarItem.image = UIImage(named: "UnselectedInfo")?.withRenderingMode(.alwaysOriginal)
+    tabBarItem.selectedImage = UIImage(named: "SelectedInfo")?.withRenderingMode(.alwaysOriginal)
+    }
 }

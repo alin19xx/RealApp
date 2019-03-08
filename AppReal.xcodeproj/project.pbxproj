@@ -23,9 +23,12 @@
 		19AAF8282219B6FD00EDB696 /* TableViewCellCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AAF8272219B6FD00EDB696 /* TableViewCellCustom.swift */; };
 		19AAF82A2219CE6500EDB696 /* CSVWatches_v2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19AAF8292219CE6500EDB696 /* CSVWatches_v2.csv */; };
 		19AAF82C2219E75A00EDB696 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AAF82B2219E75A00EDB696 /* ProfileViewController.swift */; };
+		19CA773B2230740000E570AA /* ViewControllerWatchProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CA773A2230740000E570AA /* ViewControllerWatchProfile.swift */; };
 		19E31BFD22246A8700597BB8 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E31BFC22246A8700597BB8 /* SearchController.swift */; };
 		19E31BFF22246D9200597BB8 /* TableViewCellSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E31BFE22246D9200597BB8 /* TableViewCellSearch.swift */; };
 		19E8C1AA222050A800CFF6EF /* ViewControllerWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E8C1A9222050A800CFF6EF /* ViewControllerWatch.swift */; };
+		19F268F1222A6D92007AF1CE /* CollectionViewCellCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F268F0222A6D92007AF1CE /* CollectionViewCellCustom.swift */; };
+		19FC59C8222FD86A00868C0D /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FC59C7222FD86A00868C0D /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,9 +71,12 @@
 		19AAF8272219B6FD00EDB696 /* TableViewCellCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCustom.swift; sourceTree = "<group>"; };
 		19AAF8292219CE6500EDB696 /* CSVWatches_v2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSVWatches_v2.csv; path = ../../../../../Desktop/CSVWatches_v2.csv; sourceTree = "<group>"; };
 		19AAF82B2219E75A00EDB696 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		19CA773A2230740000E570AA /* ViewControllerWatchProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWatchProfile.swift; sourceTree = "<group>"; };
 		19E31BFC22246A8700597BB8 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		19E31BFE22246D9200597BB8 /* TableViewCellSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellSearch.swift; sourceTree = "<group>"; };
 		19E8C1A9222050A800CFF6EF /* ViewControllerWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWatch.swift; sourceTree = "<group>"; };
+		19F268F0222A6D92007AF1CE /* CollectionViewCellCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellCustom.swift; sourceTree = "<group>"; };
+		19FC59C7222FD86A00868C0D /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +167,8 @@
 				19AAF82B2219E75A00EDB696 /* ProfileViewController.swift */,
 				19E8C1A9222050A800CFF6EF /* ViewControllerWatch.swift */,
 				19E31BFC22246A8700597BB8 /* SearchController.swift */,
+				19FC59C7222FD86A00868C0D /* AboutUsViewController.swift */,
+				19CA773A2230740000E570AA /* ViewControllerWatchProfile.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -197,6 +205,7 @@
 			children = (
 				19AAF8272219B6FD00EDB696 /* TableViewCellCustom.swift */,
 				19E31BFE22246D9200597BB8 /* TableViewCellSearch.swift */,
+				19F268F0222A6D92007AF1CE /* CollectionViewCellCustom.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -336,13 +345,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				19E31BFF22246D9200597BB8 /* TableViewCellSearch.swift in Sources */,
+				19FC59C8222FD86A00868C0D /* AboutUsViewController.swift in Sources */,
 				190B683322188B1D00833F21 /* ViewController.swift in Sources */,
 				19E31BFD22246A8700597BB8 /* SearchController.swift in Sources */,
+				19F268F1222A6D92007AF1CE /* CollectionViewCellCustom.swift in Sources */,
 				19E8C1AA222050A800CFF6EF /* ViewControllerWatch.swift in Sources */,
 				190B68642219694900833F21 /* Watch.swift in Sources */,
 				190B683122188B1D00833F21 /* AppDelegate.swift in Sources */,
 				190B686022188DD900833F21 /* CustomTabBarController.swift in Sources */,
 				190B686922197AE200833F21 /* Csv.swift in Sources */,
+				19CA773B2230740000E570AA /* ViewControllerWatchProfile.swift in Sources */,
 				190B68672219762700833F21 /* Tools.swift in Sources */,
 				19AAF82C2219E75A00EDB696 /* ProfileViewController.swift in Sources */,
 				19AAF8282219B6FD00EDB696 /* TableViewCellCustom.swift in Sources */,

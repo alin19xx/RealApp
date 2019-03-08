@@ -9,9 +9,13 @@
 import Foundation
 import UIKit
 
-class Watch: CustomStringConvertible{
+public class Watch: CustomStringConvertible, Equatable{
     
     
+    public static func == (lhs: Watch, rhs: Watch) -> Bool {
+        return lhs.id == rhs.id
+    }
+
     var id: String
     var img: String
     var name: String
