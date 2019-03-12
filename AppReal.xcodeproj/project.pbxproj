@@ -18,12 +18,10 @@
 		190B68642219694900833F21 /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190B68632219694900833F21 /* Watch.swift */; };
 		190B68672219762700833F21 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190B68662219762700833F21 /* Tools.swift */; };
 		190B686922197AE200833F21 /* Csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190B686822197AE200833F21 /* Csv.swift */; };
-		19AAF8212219843800EDB696 /* CSVMacWatches.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19AAF8202219843800EDB696 /* CSVMacWatches.csv */; };
-		19AAF8252219874B00EDB696 /* CSVWatches.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19AAF8242219874B00EDB696 /* CSVWatches.csv */; };
 		19AAF8282219B6FD00EDB696 /* TableViewCellCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AAF8272219B6FD00EDB696 /* TableViewCellCustom.swift */; };
-		19AAF82A2219CE6500EDB696 /* CSVWatches_v2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19AAF8292219CE6500EDB696 /* CSVWatches_v2.csv */; };
 		19AAF82C2219E75A00EDB696 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AAF82B2219E75A00EDB696 /* ProfileViewController.swift */; };
 		19CA773B2230740000E570AA /* ViewControllerWatchProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CA773A2230740000E570AA /* ViewControllerWatchProfile.swift */; };
+		19E12EFE223805D40002D27D /* CSVWatches_v2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 19E12EFD223805D40002D27D /* CSVWatches_v2.csv */; };
 		19E31BFD22246A8700597BB8 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E31BFC22246A8700597BB8 /* SearchController.swift */; };
 		19E31BFF22246D9200597BB8 /* TableViewCellSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E31BFE22246D9200597BB8 /* TableViewCellSearch.swift */; };
 		19E8C1AA222050A800CFF6EF /* ViewControllerWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E8C1A9222050A800CFF6EF /* ViewControllerWatch.swift */; };
@@ -66,12 +64,10 @@
 		190B68632219694900833F21 /* Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
 		190B68662219762700833F21 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		190B686822197AE200833F21 /* Csv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Csv.swift; sourceTree = "<group>"; };
-		19AAF8202219843800EDB696 /* CSVMacWatches.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSVMacWatches.csv; path = ../../../../../Desktop/CSVMacWatches.csv; sourceTree = "<group>"; };
-		19AAF8242219874B00EDB696 /* CSVWatches.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSVWatches.csv; path = ../../../../../Desktop/CSVWatches.csv; sourceTree = "<group>"; };
 		19AAF8272219B6FD00EDB696 /* TableViewCellCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCustom.swift; sourceTree = "<group>"; };
-		19AAF8292219CE6500EDB696 /* CSVWatches_v2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSVWatches_v2.csv; path = ../../../../../Desktop/CSVWatches_v2.csv; sourceTree = "<group>"; };
 		19AAF82B2219E75A00EDB696 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		19CA773A2230740000E570AA /* ViewControllerWatchProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWatchProfile.swift; sourceTree = "<group>"; };
+		19E12EFD223805D40002D27D /* CSVWatches_v2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CSVWatches_v2.csv; sourceTree = "<group>"; };
 		19E31BFC22246A8700597BB8 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		19E31BFE22246D9200597BB8 /* TableViewCellSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellSearch.swift; sourceTree = "<group>"; };
 		19E8C1A9222050A800CFF6EF /* ViewControllerWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWatch.swift; sourceTree = "<group>"; };
@@ -192,9 +188,7 @@
 		190B68652219758200833F21 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				19AAF8292219CE6500EDB696 /* CSVWatches_v2.csv */,
-				19AAF8242219874B00EDB696 /* CSVWatches.csv */,
-				19AAF8202219843800EDB696 /* CSVMacWatches.csv */,
+				19E12EFD223805D40002D27D /* CSVWatches_v2.csv */,
 				190B686822197AE200833F21 /* Csv.swift */,
 			);
 			path = Libraries;
@@ -315,11 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				190B683B22188B1F00833F21 /* LaunchScreen.storyboard in Resources */,
+				19E12EFE223805D40002D27D /* CSVWatches_v2.csv in Resources */,
 				190B683822188B1F00833F21 /* Assets.xcassets in Resources */,
 				190B683622188B1D00833F21 /* Main.storyboard in Resources */,
-				19AAF82A2219CE6500EDB696 /* CSVWatches_v2.csv in Resources */,
-				19AAF8252219874B00EDB696 /* CSVWatches.csv in Resources */,
-				19AAF8212219843800EDB696 /* CSVMacWatches.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
